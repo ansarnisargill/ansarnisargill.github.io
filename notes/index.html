@@ -20,6 +20,9 @@
 		<link rel="modulepreload" href="/app/chunks/vendor-0b995e6b.js">
 		<link rel="modulepreload" href="/app/chunks/preload-helper-ec9aa979.js">
 		<link rel="modulepreload" href="/app/chunks/singletons-12a22614.js">
+		<link rel="modulepreload" href="/app/layout.svelte-f0a54ade.js">
+		<link rel="modulepreload" href="/app/pages/notes.svelte-f6e22d90.js">
+		<link rel="modulepreload" href="/app/chunks/navigation-51f4a605.js">
 		<link rel="stylesheet" href="/app/assets/start-61d1577b.css">
 
 		<script type="module">
@@ -30,14 +33,35 @@
 				session: {},
 				host: location.host,
 				route: true,
-				spa: true,
+				spa: false,
 				trailing_slash: "never",
-				hydrate: null
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/app/layout.svelte-f0a54ade.js"),
+						import("/app/pages/notes.svelte-f6e22d90.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/notes",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
 			});
 		</script>
 	</head>
 	<body>
 		<div id="svelte">
+
+
+<div class="container"><nav><ul><li>/home</li></ul></nav>
+
+	<main><h1>Notes:$<span class="cursor">|</span></h1>
+<h3>List of Posts:</h3></main></div>
+
+
 
 	
 </div>
