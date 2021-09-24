@@ -9,37 +9,79 @@
 		<meta name="author" content="Ansar Nisar Gill">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Ansar Nisar - Software Engineer - CV - Blog</title>
-		<link rel="stylesheet" href="winbox.min.css" />
-		<link rel="stylesheet" href="main.css" />
-		<link rel="icon" type="image/png" href="an.ico" />
+		<link rel="stylesheet" href="/winbox.min.css" />
+		<link rel="stylesheet" href="/main.css" />
+		<link rel="icon" type="image/png" href="/an.ico" />
 		
 
 		
 
-		<link rel="modulepreload" href="/app/start-16725c37.js">
-		<link rel="modulepreload" href="/app/chunks/vendor-0b995e6b.js">
+		<link rel="modulepreload" href="/app/start-be6eb5c9.js">
+		<link rel="modulepreload" href="/app/chunks/vendor-c6b469ff.js">
 		<link rel="modulepreload" href="/app/chunks/preload-helper-ec9aa979.js">
 		<link rel="modulepreload" href="/app/chunks/singletons-12a22614.js">
+		<link rel="modulepreload" href="/app/layout.svelte-1c429193.js">
+		<link rel="modulepreload" href="/app/pages/index.svelte-0c5b0228.js">
 		<link rel="stylesheet" href="/app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/app/assets/pages/index.svelte-a7f97bdd.css">
 
 		<script type="module">
-			import { start } from "/app/start-16725c37.js";
+			import { start } from "/app/start-be6eb5c9.js";
 			start({
 				target: document.body,
 				paths: {"base":"","assets":""},
 				session: {},
 				host: location.host,
 				route: true,
-				spa: true,
+				spa: false,
 				trailing_slash: "never",
-				hydrate: null
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/app/layout.svelte-1c429193.js"),
+						import("/app/pages/index.svelte-0c5b0228.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
 			});
 		</script>
 	</head>
 	<body>
 		<div id="svelte">
 
-	
-</div>
+
+<div class="container"><nav><ul><li id="about">/about</li>
+			<li id="contact">/contact</li></ul></nav>
+
+	<main><h1>Ansar Nisar:$<span class="cursor">|</span></h1>
+		<h3 class="svelte-1ftqafp">Read:</h3>
+<ul><li><a href="/blog">Blog</a></li>
+	<li><a href="/notes">Notes</a></li>
+	<li><a href="/essays">Essays</a></li>
+</ul>
+		<h3 class="svelte-1ftqafp">Find me online:</h3>
+<ul><li><a href="https://twitter.com/ansarnisargill2" target="_blank">Twitter</a></li>
+	<li><a href="https://www.linkedin.com/in/ansarnisar/" target="_blank">LinkedIn</a></li>
+	<li><a href="https://github.com/ansarnisargill/" target="_blank">Github</a></li>
+</ul></main></div>
+<div class="hidden"><div id="about-content"><h2>about-me:$<span class="cursor">|</span></h2>
+		<p>Hi!</p>
+		<p>This is Ansar Nisar.</p>
+		<p>Some of the languages that I am fluent in include C#, dotnet, and JavaScript</p></div>
+	<div id="contact-content"><h2>contact-me:$<span class="cursor">|</span></h2>
+		<p>You can contact me at the email and phone number below</p>
+		<ul><li>Phone: +923074257049</li>
+			<li>Email: ansarnisargill@gmail.com</li></ul></div></div>
+
+
+
+			
+		</div>
 	</body>
 </html>
