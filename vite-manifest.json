@@ -36,7 +36,7 @@
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "app/immutable/components/pages/_page.svelte-372c30ba.js",
+    "file": "app/immutable/components/pages/page.svelte-372c30ba.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -47,11 +47,11 @@
       "src/winbox/winbox.js"
     ],
     "css": [
-      "app/immutable/assets/_page-1d266feb.css"
+      "app/immutable/assets/page-1d266feb.css"
     ]
   },
   "src/routes/blog/+page.svelte": {
-    "file": "app/immutable/components/pages/blog/_page.svelte-991c0f74.js",
+    "file": "app/immutable/components/pages/blog/page.svelte-991c0f74.js",
     "src": "src/routes/blog/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -60,7 +60,7 @@
     ]
   },
   "src/routes/essays/+page.svelte": {
-    "file": "app/immutable/components/pages/essays/_page.svelte-c4f36597.js",
+    "file": "app/immutable/components/pages/essays/page.svelte-c4f36597.js",
     "src": "src/routes/essays/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -69,7 +69,7 @@
     ]
   },
   "src/routes/notes/+page.svelte": {
-    "file": "app/immutable/components/pages/notes/_page.svelte-685d75c9.js",
+    "file": "app/immutable/components/pages/notes/page.svelte-685d75c9.js",
     "src": "src/routes/notes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -77,11 +77,11 @@
       "_stringResources-af5227eb.js"
     ],
     "css": [
-      "app/immutable/assets/_page-0ca77c04.css"
+      "app/immutable/assets/page-0ca77c04.css"
     ]
   },
   "src/routes/notes/how-to-rename-all-files-in-a-directory/+page.svelte": {
-    "file": "app/immutable/components/pages/notes/how-to-rename-all-files-in-a-directory/_page.svelte-a0540a11.js",
+    "file": "app/immutable/components/pages/notes/how-to-rename-all-files-in-a-directory/page.svelte-a0540a11.js",
     "src": "src/routes/notes/how-to-rename-all-files-in-a-directory/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -89,47 +89,47 @@
       "_stringResources-af5227eb.js"
     ],
     "css": [
-      "app/immutable/assets/_page-548b5b0d.css"
+      "app/immutable/assets/page-548b5b0d.css"
     ]
   },
   "src/routes/+page.js": {
-    "file": "app/immutable/modules/pages/_page.js-07d4ebd9.js",
+    "file": "app/immutable/modules/pages/page.js-07d4ebd9.js",
     "src": "src/routes/+page.js",
     "isEntry": true,
     "imports": [
-      "__page-d86dbbba.js"
+      "_page-d86dbbba.js"
     ]
   },
   "src/routes/blog/+page.js": {
-    "file": "app/immutable/modules/pages/blog/_page.js-bebc5037.js",
+    "file": "app/immutable/modules/pages/blog/page.js-bebc5037.js",
     "src": "src/routes/blog/+page.js",
     "isEntry": true,
     "imports": [
-      "__page-f15d52f8.js"
+      "_page-f15d52f8.js"
     ]
   },
   "src/routes/essays/+page.js": {
-    "file": "app/immutable/modules/pages/essays/_page.js-4a284539.js",
+    "file": "app/immutable/modules/pages/essays/page.js-4a284539.js",
     "src": "src/routes/essays/+page.js",
     "isEntry": true,
     "imports": [
-      "__page-96b7bcd6.js"
+      "_page-96b7bcd6.js"
     ]
   },
   "src/routes/notes/+page.js": {
-    "file": "app/immutable/modules/pages/notes/_page.js-4ac238a0.js",
+    "file": "app/immutable/modules/pages/notes/page.js-4ac238a0.js",
     "src": "src/routes/notes/+page.js",
     "isEntry": true,
     "imports": [
-      "__page-e9b15591.js"
+      "_page-e9b15591.js"
     ]
   },
   "src/routes/notes/how-to-rename-all-files-in-a-directory/+page.js": {
-    "file": "app/immutable/modules/pages/notes/how-to-rename-all-files-in-a-directory/_page.js-aa861d18.js",
+    "file": "app/immutable/modules/pages/notes/how-to-rename-all-files-in-a-directory/page.js-aa861d18.js",
     "src": "src/routes/notes/how-to-rename-all-files-in-a-directory/+page.js",
     "isEntry": true,
     "imports": [
-      "__page-283470a6.js"
+      "_page-283470a6.js"
     ]
   },
   "_singletons-401eab42.js": {
@@ -144,8 +144,8 @@
   "_preload-helper-9b728935.js": {
     "file": "app/immutable/chunks/preload-helper-9b728935.js"
   },
-  "__page-d86dbbba.js": {
-    "file": "app/immutable/chunks/_page-d86dbbba.js"
+  "_page-d86dbbba.js": {
+    "file": "app/immutable/chunks/page-d86dbbba.js"
   },
   "_Helpers-401b7345.js": {
     "file": "app/immutable/chunks/Helpers-401b7345.js",
@@ -153,20 +153,20 @@
       "_singletons-401eab42.js"
     ]
   },
-  "__page-f15d52f8.js": {
-    "file": "app/immutable/chunks/_page-f15d52f8.js"
+  "_page-f15d52f8.js": {
+    "file": "app/immutable/chunks/page-f15d52f8.js"
   },
-  "__page-96b7bcd6.js": {
-    "file": "app/immutable/chunks/_page-96b7bcd6.js"
+  "_page-96b7bcd6.js": {
+    "file": "app/immutable/chunks/page-96b7bcd6.js"
   },
   "_stringResources-af5227eb.js": {
     "file": "app/immutable/chunks/stringResources-af5227eb.js"
   },
-  "__page-e9b15591.js": {
-    "file": "app/immutable/chunks/_page-e9b15591.js"
+  "_page-e9b15591.js": {
+    "file": "app/immutable/chunks/page-e9b15591.js"
   },
-  "__page-283470a6.js": {
-    "file": "app/immutable/chunks/_page-283470a6.js"
+  "_page-283470a6.js": {
+    "file": "app/immutable/chunks/page-283470a6.js"
   },
   ".svelte-kit/generated/nodes/0.js": {
     "file": "app/immutable/chunks/0-5cc17fb8.js",
@@ -189,7 +189,7 @@
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
-      "__page-d86dbbba.js",
+      "_page-d86dbbba.js",
       "src/routes/+page.svelte"
     ]
   },
@@ -198,7 +198,7 @@
     "src": ".svelte-kit/generated/nodes/3.js",
     "isDynamicEntry": true,
     "imports": [
-      "__page-f15d52f8.js",
+      "_page-f15d52f8.js",
       "src/routes/blog/+page.svelte"
     ]
   },
@@ -207,7 +207,7 @@
     "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
-      "__page-96b7bcd6.js",
+      "_page-96b7bcd6.js",
       "src/routes/essays/+page.svelte"
     ]
   },
@@ -216,7 +216,7 @@
     "src": ".svelte-kit/generated/nodes/5.js",
     "isDynamicEntry": true,
     "imports": [
-      "__page-e9b15591.js",
+      "_page-e9b15591.js",
       "src/routes/notes/+page.svelte"
     ]
   },
@@ -225,7 +225,7 @@
     "src": ".svelte-kit/generated/nodes/6.js",
     "isDynamicEntry": true,
     "imports": [
-      "__page-283470a6.js",
+      "_page-283470a6.js",
       "src/routes/notes/how-to-rename-all-files-in-a-directory/+page.svelte"
     ]
   },
@@ -235,15 +235,15 @@
     "isDynamicEntry": true
   },
   "src/routes/+page.css": {
-    "file": "app/immutable/assets/_page-1d266feb.css",
+    "file": "app/immutable/assets/page-1d266feb.css",
     "src": "src/routes/+page.css"
   },
   "src/routes/notes/+page.css": {
-    "file": "app/immutable/assets/_page-0ca77c04.css",
+    "file": "app/immutable/assets/page-0ca77c04.css",
     "src": "src/routes/notes/+page.css"
   },
   "src/routes/notes/how-to-rename-all-files-in-a-directory/+page.css": {
-    "file": "app/immutable/assets/_page-548b5b0d.css",
+    "file": "app/immutable/assets/page-548b5b0d.css",
     "src": "src/routes/notes/how-to-rename-all-files-in-a-directory/+page.css"
   }
 }
