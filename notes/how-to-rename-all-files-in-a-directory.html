@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description"
+		content="Ansar Nisar Gill's blog where He writes about C#, dotnet, ASP.NET and general programming topics, Here he also holds his portfolio.">
+	<meta name="keywords" content="HTML,CSS,Svelte,C#,dotnet,.NET,JavaScript">
+	<meta name="author" content="Ansar Nisar Gill">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ansar Nisar - Software Engineer - CV - Blog</title>
+	<link rel="stylesheet" href="/winbox.min.css" />
+	<link rel="stylesheet" href="/main.css" />
+	<link rel="icon" type="/image/png" href="/an.ico" />
+	<meta http-equiv="content-security-policy" content="">
+		<link href="../app/immutable/assets/_page-548b5b0d.css" rel="stylesheet">
+		<link rel="modulepreload" href="../app/immutable/start-9fade950.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/index-cc9ada89.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/singletons-401eab42.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/preload-helper-9b728935.js">
+		<link rel="modulepreload" href="../app/immutable/components/layout.svelte-a3615f06.js">
+		<link rel="modulepreload" href="../app/immutable/components/pages/notes/how-to-rename-all-files-in-a-directory/_page.svelte-a0540a11.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/stringResources-af5227eb.js">
+		<link rel="modulepreload" href="../app/immutable/modules/pages/notes/how-to-rename-all-files-in-a-directory/_page.js-aa861d18.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/_page-283470a6.js"><!-- HEAD_svelte-1towk86_START --><!-- HTML_TAG_START --><style>pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}.hljs{background:#272822;color:#ddd}.hljs-keyword,.hljs-literal,.hljs-name,.hljs-selector-tag,.hljs-strong,.hljs-tag{color:#f92672}.hljs-code{color:#66d9ef}.hljs-attribute,.hljs-link,.hljs-regexp,.hljs-symbol{color:#bf79db}.hljs-addition,.hljs-built_in,.hljs-bullet,.hljs-emphasis,.hljs-section,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-string,.hljs-subst,.hljs-template-tag,.hljs-template-variable,.hljs-title,.hljs-type,.hljs-variable{color:#a6e22e}.hljs-class .hljs-title,.hljs-title.class_{color:#fff}.hljs-comment,.hljs-deletion,.hljs-meta,.hljs-quote{color:#75715e}.hljs-doctag,.hljs-keyword,.hljs-literal,.hljs-section,.hljs-selector-id,.hljs-selector-tag,.hljs-title,.hljs-type{font-weight:700}</style><!-- HTML_TAG_END --><!-- HEAD_svelte-1towk86_END -->
+</head>
+
+<body>
+	<div id="svelte">
+
+
+
+<div class="container"><nav><ul><li><a href="/">/home </a></li>
+			<li><a href="/notes">/notes </a></li></ul></nav>
+
+	<main><h1>How to rename all the files in a directory<span class="cursor">|</span></h1>
+		<h2>With Powershell:</h2>
+		<p><code class="language-powershell"></code>
+			
+  
+  <pre data-language="powershell" class=" svelte-4cqgwq"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-built_in">Get-ChildItem</span> <span class="hljs-literal">-Filter</span> <span class="hljs-string">&quot;search-term*&quot;</span> <span class="hljs-literal">-Recurse</span> | <span class="hljs-built_in">Rename-Item</span> <span class="hljs-literal">-NewName</span> {; <span class="hljs-variable">$_</span>.name <span class="hljs-operator">-replace</span> <span class="hljs-string">&#x27;old-name&#x27;</span>,<span class="hljs-string">&#x27;new-name&#x27;</span>}<!-- HTML_TAG_END --></code></pre>
+</p></main></div>
+
+
+		<script type="module" data-sveltekit-hydrate="x1vv49">
+			import { start } from "../app/immutable/start-9fade950.js";
+
+			start({
+				env: {},
+				hydrate: {
+					status: 200,
+					error: null,
+					node_ids: [0, 6],
+					params: {},
+					route: {"id":"/notes/how-to-rename-all-files-in-a-directory"},
+					data: [null,null],
+					form: null
+				},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="x1vv49"]').parentNode,
+				version: "1670487691458"
+			});
+		</script>
+	</div>
+</body>
+
+</html>
